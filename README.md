@@ -6,7 +6,6 @@ Before running the Jenkins Job do the changes for parameters in application.prop
 ![image](https://github.com/user-attachments/assets/672b2256-4fa4-4972-9423-59a626d54c56)
 
 Create the service connection for Docker Registry, Maven Artifacts Feed and SonarQube. Then run the Azure DevOps Pipeline.
-![image](https://github.com/user-attachments/assets/a605408f-56e5-40eb-8640-06bc437bb8f0)
 
 After running the Azure DevOps Pipeline the screenshot for SonarQube, Azure Artifacts Feed and the entry for Azure DNS Zone is as shown in the screenshot attached below.
 ![image](https://github.com/user-attachments/assets/8420eab7-b386-4d89-92ce-40291b69ba66)
