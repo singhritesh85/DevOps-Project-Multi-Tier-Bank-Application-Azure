@@ -31,7 +31,7 @@ rm -f node-v16.0.0-linux-x64.tar.gz
 mv /opt/node-v16.0.0-linux-x64 /opt/node-v16.0.0
 cd /opt && curl -sfL https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh | sh -s -- -b /usr/local/bin v0.38.3
 echo JAVA_HOME="/usr/lib/jvm/jdk-17-oracle-x64" >> /home/demo/.bashrc
-echo PATH="$PATH:$JAVA_HOME/bin:/opt/sonar-scanner/bin:/opt/apache-maven/bin:/opt/node-v16.0.0/bin:/opt/dependency-check/bin:/usr/local/bin" >> /home/demo/.bashrc
+echo PATH="$PATH:$JAVA_HOME/bin:/opt/apache-maven/bin:/opt/node-v16.0.0/bin:/opt/dependency-check/bin:/usr/local/bin" >> /home/demo/.bashrc
 echo "demo  ALL=(ALL)  NOPASSWD:ALL" >> /etc/sudoers 
 yum install -y https://packages.microsoft.com/config/rhel/8/packages-microsoft-prod.rpm
 yum install -y azure-cli
